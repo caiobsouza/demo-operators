@@ -1,0 +1,18 @@
+{
+  "name": "math-op",
+  "version": "1.0.0",
+  "description": "Basic Math operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './{,!(node_modules)/**}/*.spec.js'"
+  },
+  "author": "Caio Souza",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "eslint": "^7.19.0",
+    "mocha": "^8.3.0",
+    "sinon": "^9.2.4",
+    "sinon-chai": "^3.5.0"
+  }
+}
